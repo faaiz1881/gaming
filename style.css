@@ -1,0 +1,113 @@
+
+* {box-sizing: border-box;}
+
+body { 
+    padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  overflow: hidden;
+  background-color: #002147;
+  color: white;
+  padding: 0;
+}
+
+.header {
+    display: inline-block;
+    color: solid white;
+    text-align: center;
+    padding: 24px;
+    margin: 0 0 0 60px;
+    text-decoration: none;
+    word-spacing: 20px;
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 0;
+  margin: 0 0 0 5px;
+}
+.search {
+    text-align: right;
+    margin: 30px 40px -10px 0;
+    padding: 10px;
+    font-size: 15px;
+    word-spacing: 2px;
+    background-size: 20px
+    
+}
+
+.next{
+    text-align: right;
+    margin: -30px 60px 20px 0;
+    padding: 10px;
+    word-spacing: 20px;
+    font-size: 15px;
+    word-spacing: 30px;
+    background-size: 20px
+
+}
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin: 20px 0 0 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+  @media screen and (min-width: 50em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ 
+    .card {
+        flex: 0 1 calc(25% - 1em);
+    }
+    .kick{
+      text-align: left;
+    }
+
+.las{
+  border: 2px solid white;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
